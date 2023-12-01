@@ -1,0 +1,45 @@
+.latestTrends-container {
+    background: var(--primary-light);
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3rem;
+
+    &>p {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+
+    &>div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        overflow: hidden;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        div {
+            overflow: hidden;
+        }
+
+        img {
+            height: 20rem;
+            border-radius: .5rem;
+            width: inherit;
+            object-fit: cover;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    &>div+p {
+        margin-top: 3rem;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
