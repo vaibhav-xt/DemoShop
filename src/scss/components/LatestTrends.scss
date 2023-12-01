@@ -14,7 +14,8 @@
 
     &>div {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         overflow: hidden;
         flex-wrap: wrap;
         gap: 2rem;
@@ -24,10 +25,10 @@
         }
 
         img {
-            height: 20rem;
             border-radius: .5rem;
             width: inherit;
             object-fit: cover;
+            height: 20rem;
         }
 
         p {
