@@ -3,15 +3,16 @@
 
 
 // Variables
-$primary-white: #000000;
-$primary-black: #ffffff;
-$primary-yellow: rgb(255, 230, 0);
-$primary-font: 'Poppins', sans-serif;
-
-
+:root {
+    --primary-light: #ffffff;
+    --primary-dark: #0000;
+    --primary-yellow: #ffe600;
+    --primary-font: 'Poppins', sans-serif;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--primary-font);
 }

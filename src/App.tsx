@@ -1,6 +1,5 @@
 import Search from './pages/Search'
 import Product from './pages/Product'
-import './scss/index.scss'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 export default function App() {

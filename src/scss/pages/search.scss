@@ -1,0 +1,14 @@
+.search-main-container {
+    width: 100vw;
+    height: 100vh;
+    background: url("../../assets/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    padding: 2rem;
+
+    .logo {
+        position: absolute;
+        height: 2.5rem;
+        right: 2rem;
+    }
+}
