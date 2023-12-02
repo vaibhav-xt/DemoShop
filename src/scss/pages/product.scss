@@ -1,0 +1,9 @@
+.product-container {
+    padding: 3rem;
+
+    &>p {
+        padding: 1rem 0;
+        font-size: 3rem;
+        font-weight: 200;
+    }
+}

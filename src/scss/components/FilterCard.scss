@@ -1,0 +1,34 @@
+.filterCard-container {
+    max-width: 200px;
+
+    &>div {
+        margin-top: 1rem;
+        overflow: hidden;
+
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 2rem;
+
+            i {
+                font-size: 1.5rem;
+            }
+        }
+
+        ul {
+            font-size: 1.4rem;
+
+            li {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+
+    hr {
+        margin: 1rem 0;
+        opacity: 0.4;
+    }
+}

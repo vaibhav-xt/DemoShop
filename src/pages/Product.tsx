@@ -1,6 +1,12 @@
+import FilterCard from "../components/FilterCard";
+import SearchBar from "../components/SearchBar";
 
 export default function Product() {
     return (
-        <div>product</div>
+        <div className="product-container">
+            <SearchBar />
+            <p>Search Results</p>
+            <FilterCard />
+        </div>
     )
 }
