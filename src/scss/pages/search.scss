@@ -1,9 +1,9 @@
 .search-main-container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: url("../../assets/bg_image.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100vw 100%;
     padding: 3rem;
     font-size: 1.6rem;
 

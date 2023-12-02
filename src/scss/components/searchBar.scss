@@ -8,6 +8,8 @@
     margin: 9rem auto;
     margin-bottom: 2rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.239);
+    display: flex;
+    align-items: center;
 
     input {
         height: inherit;
@@ -15,7 +17,7 @@
         padding: 2rem;
         border: none;
         outline: none;
-        width: 92%;
+        width: 100%;
 
         ::placeholder {
             color: var(--primary-dark);
@@ -24,6 +26,6 @@
 
     i {
         text-align: center;
-        width: 8%;
+        width: 5rem;
     }
 }

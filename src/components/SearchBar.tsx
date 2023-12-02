@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function SearchBar() {
 
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState<string>("")
 
     return (
         <div className="search-container">
