@@ -24,9 +24,13 @@
         }
     }
 
-    i {
-        text-align: center;
+    button {
+        background-color: var(--primary-light);
+        border: none;
         width: 5rem;
+        text-align: center;
+        font-size: 1.8rem;
+        cursor: pointer
     }
 }
 

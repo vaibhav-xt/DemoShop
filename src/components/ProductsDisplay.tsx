@@ -50,9 +50,9 @@ const ProductsDisplay: React.FC<{ filter: Filter }> = ({ filter }) => {
 
     return (
         <div className="productDisplay-container">
-            {filterData.map((product, index) => (
+            {filterData.length !== 0 ? filterData.map((product, index) => (
                 <ProductCard key={index} product={product} />
-            ))}
+            )) : <p>Product Not Found!</p>}
         </div>
     );
 };

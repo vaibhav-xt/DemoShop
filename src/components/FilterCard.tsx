@@ -109,21 +109,21 @@ export default function FilterCard({ filter, setFilter }: FilterCardProps) {
                         <input
                             type="radio"
                             name="price"
-                            id=">50"
-                            value=">50"
+                            id="<50"
+                            value="<50"
                             onChange={handlePriceChange}
                         />
-                        <label htmlFor=">50">Under 50</label>
+                        <label htmlFor="<50">Under 50</label>
                     </li>
                     <li>
                         <input
                             type="radio"
                             name="price"
-                            id="<50"
-                            value="<50"
+                            id=">50"
+                            value=">50"
                             onChange={handlePriceChange}
                         />
-                        <label htmlFor="<50">Above 50</label>
+                        <label htmlFor=">50">Above 50</label>
                     </li>
                 </ul>
             </div>

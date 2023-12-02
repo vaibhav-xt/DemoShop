@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 100%;
     gap: 2rem;
+    font-size: 1.4rem;
 
     &>div {
         max-width: 350px;
@@ -48,10 +49,10 @@
                 bottom: 0;
             }
         }
+    }
 
-        p {
-            font-size: 1.4rem;
-        }
+    &>p {
+        text-align: center;
     }
 }
 
