@@ -1,4 +1,5 @@
 import FilterCard from "../components/FilterCard";
+import ProductsDisplay from "../components/ProductsDisplay";
 import SearchBar from "../components/SearchBar";
 
 export default function Product() {
@@ -6,7 +7,10 @@ export default function Product() {
         <div className="product-container">
             <SearchBar />
             <p>Search Results</p>
-            <FilterCard />
+            <div className="products-section">
+                <FilterCard />
+                <ProductsDisplay />
+            </div>
         </div>
     )
 }
