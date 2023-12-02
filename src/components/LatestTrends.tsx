@@ -8,7 +8,7 @@ export default function LatestTrends() {
                 {/* Trend Cards  */}
                 {
                     data.slice(0, 5).map((product) => (
-                        <div>
+                        <div key={product.id}>
                             <img src={product.thumbnail} alt="img" />
                             <p>{product.title}</p>
                         </div>
@@ -19,11 +19,10 @@ export default function LatestTrends() {
             {/* Suggestions  */}
             <p>Popular Suggestions</p>
             <ul>
-                <li>Striped shirt dress</li>
-                <li>Satin shirts</li>
-                <li>Denim Jumpsuit</li>
-                <li>Leather Dresses</li>
-                <li>Solid tShirts</li>
+                <li>Women Dresses</li>
+                <li>Women Shoes</li>
+                <li>Men Shirts</li>
+                <li>Men Shirts</li>
             </ul>
         </div>
     )

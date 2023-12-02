@@ -7,3 +7,10 @@
     padding: 3rem;
     font-size: 1.6rem;
 }
+
+@media (max-width: 1000px) {
+    .search-main-container {
+        background-position: 50% 0;
+        background-size: auto 100vh;
+    }
+}
