@@ -1,16 +1,22 @@
-import { useState } from "react"
 import logo from '../assets/logo.webp'
+import { useSearch } from "../context/SeachContext"
+import { useNavigate } from 'react-router-dom'
 
 export default function SearchBar() {
-    const [search, setSearch] = useState<string>("")
+    const { search, setSearch } = useSearch()
+    const navigate = useNavigate()
+
+    const formSubmit = () => {
+        navigate('/product')
+    }
 
     return (
         <>
             <img src={logo} alt="logo" className="logo" />
-            <div className="search-container">
+            <form className="search-container" onSubmit={formSubmit}>
                 <input type="text" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value)} />
                 <i className="fa-solid fa-magnifying-glass"></i>
-            </div>
+            </form>
         </>
     )
 }
